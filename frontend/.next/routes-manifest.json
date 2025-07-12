@@ -32,18 +32,6 @@
       "regex": "^/favicon\\.ico(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/favicon\\.ico(?:/)?$"
-    },
-    {
-      "page": "/grafik",
-      "regex": "^/grafik(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/grafik(?:/)?$"
-    },
-    {
-      "page": "/kontrol",
-      "regex": "^/kontrol(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/kontrol(?:/)?$"
     }
   ],
   "dataRoutes": [],

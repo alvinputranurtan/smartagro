@@ -30,30 +30,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/grafik": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/grafik",
-      "dataRoute": "/grafik.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/": {
       "experimentalBypassFor": [
         {
@@ -77,37 +53,13 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
-    },
-    "/kontrol": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/kontrol",
-      "dataRoute": "/kontrol.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "4d78accb9321c78efc9cfb6c6df13336",
-    "previewModeSigningKey": "2ca44abc542ef75789a5732d13c3953895c142fc7e9ef5d168f49339507f082a",
-    "previewModeEncryptionKey": "e83f5166f2c98819c55a1cc0eaf512fc22ed5fc6c56c9c829a3daff957477183"
+    "previewModeId": "18dc30f554287ca694097085f2f0ffe7",
+    "previewModeSigningKey": "121e79bc95db48cac7e2b377edf963c10a1b6858925b4c26438ec05d1a3317d5",
+    "previewModeEncryptionKey": "e9a72297db54fa137c8c4ce533605391c2a8a4b624318ab433e25738dbfe00c3"
   }
 }

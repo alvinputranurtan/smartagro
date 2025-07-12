@@ -1,4 +1,4 @@
-// File: C:\Program Data\XAMPP\htdocs\nextjs\smartagro\development_nextjs\src\app\layout.tsx
+// File: C:\Program Data\XAMPP\htdocs\nextjs\smartagro\frontend\src\app\layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

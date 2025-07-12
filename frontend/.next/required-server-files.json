@@ -88,7 +88,6 @@
     "logging": {},
     "expireTime": 31536000,
     "staticPageGenerationTimeout": 60,
-    "output": "export",
     "modularizeImports": {
       "@mui/icons-material": {
         "transform": "@mui/icons-material/{{member}}"
@@ -97,7 +96,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "C:\\Program Data\\XAMPP\\htdocs\\nextjs\\smartagro\\development_nextjs",
+    "outputFileTracingRoot": "C:\\Program Data\\XAMPP\\htdocs\\nextjs\\smartagro\\frontend",
     "experimental": {
       "nodeMiddleware": false,
       "cacheLife": {
@@ -280,10 +279,10 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts",
     "turbopack": {
-      "root": "C:\\Program Data\\XAMPP\\htdocs\\nextjs\\smartagro\\development_nextjs"
+      "root": "C:\\Program Data\\XAMPP\\htdocs\\nextjs\\smartagro\\frontend"
     }
   },
-  "appDir": "C:\\Program Data\\XAMPP\\htdocs\\nextjs\\smartagro\\development_nextjs",
+  "appDir": "C:\\Program Data\\XAMPP\\htdocs\\nextjs\\smartagro\\frontend",
   "relativeAppDir": "",
   "files": [
     ".next\\routes-manifest.json",

@@ -1,3 +1,0 @@
-PostgreSQL
-username: telkomam_alvin1945
-password: alvin2005
