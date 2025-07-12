@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body {
+  background-color: #f9fafb; /* abu soft */
+  color: #1f2937; /* gray-800 */
+  font-family: sans-serif;
+}
+
+button {
+  transition: background 0.2s ease;
+  
+}
